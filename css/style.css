@@ -1,0 +1,59 @@
+.main {
+    min-height: 100vh;
+    background-image: url(../images/menu.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 164px;
+    padding-left: 129px;
+    text-align: left;
+}
+.main .container {
+    width: 1017px;
+    height: 358px;
+}
+
+.main p{
+    font-family: "Room", sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 3px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.main h1{
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-align: left;
+    line-height: 74px;
+
+}
+.main h1 b{
+    color: rgb(193, 157, 109);
+    font-weight: 900;
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-align: left;
+    line-height: 74px;
+}
+
+.main .btn {
+    width: 320px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
+    border-radius: 24px;
+    padding: 19px 34px  ;
+
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    }
